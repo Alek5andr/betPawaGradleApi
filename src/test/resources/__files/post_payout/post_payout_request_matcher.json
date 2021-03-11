@@ -1,0 +1,15 @@
+{
+  "payoutId": "${json-unit.any-string}",
+  "amount": "${json-unit.any-string}",
+  "currency": "${json-unit.any-string}",
+  "country": "${json-unit.any-string}",
+  "correspondent": "${json-unit.any-string}",
+  "recipient": {
+    "type": "${json-unit.any-string}",
+    "address": {
+      "value": "${json-unit.any-string}"
+    }
+  },
+  "customerTimestamp": "${json-unit.any-string}",
+  "statementDescription": "${json-unit.any-string}"
+}

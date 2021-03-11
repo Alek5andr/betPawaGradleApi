@@ -1,0 +1,26 @@
+{
+  "payoutId": "8917c345-4791-4285-a416-62f24b6982db",
+  "status": "ACCEPTED",
+  "amount": "15.21",
+  "currency": "ZMW",
+  "country": "ZMB",
+  "correspondent": "MTN_MOMO_ZMB",
+  "recipient": {
+    "type": "MSISDN",
+    "address": {
+      "value": "256780334452"
+    }
+  },
+  "customerTimestamp": "2020-02-21T17:32:28Z",
+  "statementDescription": "Up to 22 chars note",
+  "created": "2020-02-21T17:32:29Z",
+  "receivedByRecipient": "2020-02-21T17:32:30Z",
+  "correspondentIds": {
+    "MTN_INIT": "ABC123",
+    "MTN_FINAL": "DEF456"
+  },
+  "failureReason": {
+    "failureCode": "OTHER_ERROR",
+    "failureMessage": "Recipient's address is blocked"
+  }
+}
