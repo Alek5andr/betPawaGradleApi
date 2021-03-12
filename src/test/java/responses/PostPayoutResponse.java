@@ -13,7 +13,7 @@ public class PostPayoutResponse extends ResponseBuildLogger {
 
         return new ResponseDefinitionBuilder()
                 .withStatus(HttpStatus.SC_OK)
-                .withHeader(Headers.getHeaderContentType(), Headers.getContentType())
+                .withHeader(Headers.getHeaderContentType(), Headers.getContentTypeWithCharset())
                 .withJsonBody(JsonObject.getJsonObject(responseFile));
     }
 }

@@ -12,7 +12,7 @@
 * Execute command ```gradlew check -i```
 
 # Describe...
-what else you would like to test, but was unable to do this because there is not enough information provided in this test assignment or this just was not requested by this test assignment.
+> what else you would like to test, but was unable to do this because there is not enough information provided in this test assignment or this just was not requested by this test assignment.
 
 Test candidates:
 * POST callback request
@@ -21,6 +21,10 @@ Test candidates:
  * JSON body for "/payouts" endpoint (POST)
   * Schema
   * Parameters' type
+  * Arbitrary long values
 
 Improvement ideas:
 * Implement (find out?) a possibility to merge JSON objects in order to test different occasions, where JSON objects share common part
+* Extract value from request
+ * Value usage in response body
+ * Save value and compose new JSON-file with the value inside
