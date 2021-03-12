@@ -17,14 +17,15 @@
 Test candidates:
 * POST callback request
 * Responses' check for invalid:
- * _payoutId_ for "/payouts/{payoutId}" endpoint (GET)
- * JSON body for "/payouts" endpoint (POST)
-  * Schema
-  * Parameters' type
-  * Arbitrary long values
+  * _payoutId_ for "/payouts/{payoutId}" endpoint (GET)
+  * JSON body for "/payouts" endpoint (POST)
+    * Schema
+    * Parameters' type
+    * Arbitrary long values
 
 Improvement ideas:
 * Implement (find out?) a possibility to merge JSON objects in order to test different occasions, where JSON objects share common part
 * Extract value from request
- * Value usage in response body
- * Save value and compose new JSON-file with the value inside
+  * Value usage in response body
+  * Save value and compose new JSON-file with the value inside
+* Since it's first time Gradle usage, there is a room for studying its possibilities further
